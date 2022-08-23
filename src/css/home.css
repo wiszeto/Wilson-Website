@@ -4,6 +4,7 @@ h1 {
 	font-size: 65px;
   	color: white;
 	margin: 0px;
+	margin-bottom: 50px;
 }
 
 h2 {
@@ -64,7 +65,27 @@ transform: translate(-50%, -50%);
 	visibility: visible;
   }
 
-.front_page_2 {
+  .front_page_2 {
+	
+	background-color: #2F3180;
+	height: 100vh;
+    position: static;
+	text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    width: 100%;
+	
+	
+}
+.fp2 {
+	background-color: #FFB900;
+	margin-left: 2%;
+	margin-right: 2%;
+	height: 100vh;
+	border: none;
+	border-radius: 150px 150px 0px 0px;
+}
+
+.front_page_3 {
 	background-color: #4fa8cd;
 	height: 100vh;
     position: static;
@@ -74,17 +95,8 @@ transform: translate(-50%, -50%);
 	
 }
 
-.fpc2-1 {
-	background-color: green;
-	width: 30%;
-}
 
-.fpc2-2 {
-	background-color: red;
-	width: 30%;
-}
-
-.front_page_3 {
+.front_page_4 {
 	background-color: #3699c3;
 	height: 100vh;
     position: static;
@@ -93,8 +105,13 @@ transform: translate(-50%, -50%);
     width: 100%;
 	
 }
-
-.front_page_4 {
+@media only screen and (max-height: 850px) {
+	.front_page_4 {
+		height: calc(100% );
+		
+	}
+  }
+.front_page_5 {
 	background-color: #2e83a7;
 	height: 100vh;
     position: static;
@@ -104,7 +121,7 @@ transform: translate(-50%, -50%);
 	
 }
 
-.front_page_5 {
+.front_page_6 {
 	background-color: #276d8b;
 	height: 100vh;
     position: static;

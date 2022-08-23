@@ -3,7 +3,7 @@ import React from 'react'
 import "./css/home.css"
 
 import Navbar from './components/navbar.js'
-import Projects from "./components/Projects.js";
+
 import Skills from './components/Skills.jsx'
 
 import linkedin from './images/linkedin.png'
@@ -34,25 +34,32 @@ export default function Home_page() {
                 </div>
             </div>
         </div>
-
             <div class = 'front_page_2'>
+                <div class = 'fp2'>
+                    <h1 class = 'section_title'>About Me</h1>
+                    <p></p>
+                </div>
+            </div>
+            <div class = 'front_page_3'>
                 <div>
                     <h1 class = 'section_title'>Projects</h1>
-                    <Projects />
+                </div>
+                <div>
+                    <h1 class = 'section_title'>Projects</h1>
                 </div>
                 
             </div>
             
-            <div class = 'front_page_3'>
+            <div class = 'front_page_4'>
                 <h1 class = 'section_title'>Skills</h1>
                 <Skills />
             </div>
 
-            <div class = 'front_page_4'>
+            <div class = 'front_page_5'>
                 <h1 class = 'section_title'>Expirence</h1>
             </div>
 
-            <div class = 'front_page_5'>
+            <div class = 'front_page_6'>
                 <h1 class = 'section_title'>Resume</h1>
             </div>
             
